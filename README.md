@@ -1,7 +1,5 @@
-# SCUM_SDK
-SDK for the game SCUM
-
-UPDATED FOR LATEST VERSION: 0.3.68.20018 [January 20, 2020]
+# BlazingSails_SDK
+SDK for the game BlazingSails
 
 Useful game info:
 ```
