@@ -60,5 +60,3 @@ Useful files:
 - BZ_CoreUObject_functions.cpp
 - BZ_Engine_classes.hpp
 - BZ_Engine_functions.cpp
-- BZ_BlazingSails_classes.hpp
-- BZ_BlazingSails_Functions.cpp
