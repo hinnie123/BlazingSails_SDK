@@ -37,7 +37,7 @@ public:
 	void BndEvt__Btn_CaversnNew_K2Node_ComponentBoundEvent_35_OnButtonClickedEvent__DelegateSignature();
 	void Init();
 	void Unhighlight();
-	void Highlight();
+	void HighLight();
 	void Select();
 	void BndEvt__Btn_CaversnNew_K2Node_ComponentBoundEvent_128_OnButtonHoverEvent__DelegateSignature();
 	void BndEvt__Btn_CaversnNew_K2Node_ComponentBoundEvent_138_OnButtonHoverEvent__DelegateSignature();

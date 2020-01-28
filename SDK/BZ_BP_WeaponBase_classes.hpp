@@ -57,7 +57,7 @@ public:
 	int                                                ServerClipAmount;                                         // 0x0430(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                WeaponHealth;                                             // 0x0434(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	struct FVector                                     FPSLocationOffset;                                        // 0x0438(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-	struct FRotator                                    FPSRotationOffset;                                        // 0x0444(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
+	struct FRotator                                    FpsRotationOffset;                                        // 0x0444(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	struct FVector                                     FPSScaleOffset;                                           // 0x0450(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	struct FVector                                     ThirdPersonCameraOffset;                                  // 0x045C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	bool                                               ShowWeaponsInHolsters;                                    // 0x0468(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)

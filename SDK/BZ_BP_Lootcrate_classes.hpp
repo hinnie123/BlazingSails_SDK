@@ -37,7 +37,7 @@ public:
 
 
 	void SpawnItemWithRaycast(const struct FVector& Location);
-	void BreakLootCrate();
+	void BreakLootcrate();
 	void OnRep_Broken();
 	void UserConstructionScript();
 	void ReceiveBeginPlay();

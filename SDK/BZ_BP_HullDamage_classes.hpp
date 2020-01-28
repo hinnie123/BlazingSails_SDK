@@ -65,7 +65,7 @@ public:
 	void UserConstructionScript();
 	void ReceiveBeginPlay();
 	void ReceiveTick(float* DeltaSeconds);
-	void Highlight(bool ENoughWood);
+	void HighLight(bool ENoughWood);
 	void NoHighlight();
 	void CheckForDestroy();
 	void MC_DamageEffects(bool NoSound);

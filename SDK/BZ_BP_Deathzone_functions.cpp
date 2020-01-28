@@ -209,30 +209,30 @@ void ABP_Deathzone_C::CloseGate()
 // Function BP_Deathzone.BP_Deathzone_C.MC_SetDeadZone
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// int                            DeadzoneX                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// int                            DeadzoneY                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int                            DeadZoneX                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int                            DeadZoneY                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // int                            DeadZoneScale                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // int                            Countdown                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // bool                           Collapsing                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // bool                           FinalZone                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // int                            InnerDeadZoneX                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // int                            InnerDeadZoneY                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// int                            InnerDeadzoneRadius            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int                            InnerDeadZoneRadius            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_Deathzone_C::MC_SetDeadZone(int DeadzoneX, int DeadzoneY, int DeadZoneScale, int Countdown, bool Collapsing, bool FinalZone, int InnerDeadZoneX, int InnerDeadZoneY, int InnerDeadzoneRadius)
+void ABP_Deathzone_C::MC_SetDeadZone(int DeadZoneX, int DeadZoneY, int DeadZoneScale, int Countdown, bool Collapsing, bool FinalZone, int InnerDeadZoneX, int InnerDeadZoneY, int InnerDeadZoneRadius)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Deathzone.BP_Deathzone_C.MC_SetDeadZone");
 
 	ABP_Deathzone_C_MC_SetDeadZone_Params params;
-	params.DeadzoneX = DeadzoneX;
-	params.DeadzoneY = DeadzoneY;
+	params.DeadZoneX = DeadZoneX;
+	params.DeadZoneY = DeadZoneY;
 	params.DeadZoneScale = DeadZoneScale;
 	params.Countdown = Countdown;
 	params.Collapsing = Collapsing;
 	params.FinalZone = FinalZone;
 	params.InnerDeadZoneX = InnerDeadZoneX;
 	params.InnerDeadZoneY = InnerDeadZoneY;
-	params.InnerDeadzoneRadius = InnerDeadzoneRadius;
+	params.InnerDeadZoneRadius = InnerDeadZoneRadius;
 
 	auto flags = fn->FunctionFlags;
 

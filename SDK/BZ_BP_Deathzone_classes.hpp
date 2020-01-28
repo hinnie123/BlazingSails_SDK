@@ -37,8 +37,8 @@ public:
 	int                                                CurrentPhase;                                             // 0x03B0(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	struct FVector                                     CurrentCircleLocation;                                    // 0x03B4(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	struct FVector                                     NextCircleLocation;                                       // 0x03C0(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	int                                                DeadzoneX;                                                // 0x03CC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	int                                                DeadzoneY;                                                // 0x03D0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	int                                                DeadZoneX;                                                // 0x03CC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	int                                                DeadZoneY;                                                // 0x03D0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                DeadZoneScale;                                            // 0x03D4(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                Countdown;                                                // 0x03D8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              Timer;                                                    // 0x03DC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
@@ -49,7 +49,7 @@ public:
 	float                                              DeadZoneScaleCurrent;                                     // 0x03E4(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                InnerDeadZoneX;                                           // 0x03E8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                InnerDeadZoneY;                                           // 0x03EC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	int                                                InnerDeadzoneRadius;                                      // 0x03F0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	int                                                InnerDeadZoneRadius;                                      // 0x03F0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData00[0x4];                                       // 0x03F4(0x0004) MISSED OFFSET
 	TArray<class ABP_WoodCrate_C*>                     CurrentCrateRef;                                          // 0x03F8(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance)
 	bool                                               SpawnNewCrates;                                           // 0x0408(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
@@ -83,7 +83,7 @@ public:
 	void UserConstructionScript();
 	void ReceiveTick(float* DeltaSeconds);
 	void CloseGate();
-	void MC_SetDeadZone(int DeadzoneX, int DeadzoneY, int DeadZoneScale, int Countdown, bool Collapsing, bool FinalZone, int InnerDeadZoneX, int InnerDeadZoneY, int InnerDeadzoneRadius);
+	void MC_SetDeadZone(int DeadZoneX, int DeadZoneY, int DeadZoneScale, int Countdown, bool Collapsing, bool FinalZone, int InnerDeadZoneX, int InnerDeadZoneY, int InnerDeadZoneRadius);
 	void ReceiveBeginPlay();
 	void ReInitZone();
 	void ExecuteUbergraph_BP_Deathzone(int EntryPoint);

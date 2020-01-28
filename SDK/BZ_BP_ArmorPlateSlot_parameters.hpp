@@ -40,8 +40,8 @@ struct ABP_ArmorPlateSlot_C_ReceiveBeginPlay_Params
 {
 };
 
-// Function BP_ArmorPlateSlot.BP_ArmorPlateSlot_C.Highlight
-struct ABP_ArmorPlateSlot_C_Highlight_Params
+// Function BP_ArmorPlateSlot.BP_ArmorPlateSlot_C.HighLight
+struct ABP_ArmorPlateSlot_C_HighLight_Params
 {
 };
 

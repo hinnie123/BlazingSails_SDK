@@ -32,14 +32,14 @@ void ABP_Lootcrate_C::SpawnItemWithRaycast(const struct FVector& Location)
 }
 
 
-// Function BP_Lootcrate.BP_Lootcrate_C.BreakLootCrate
+// Function BP_Lootcrate.BP_Lootcrate_C.BreakLootcrate
 // (Public, BlueprintCallable, BlueprintEvent)
 
-void ABP_Lootcrate_C::BreakLootCrate()
+void ABP_Lootcrate_C::BreakLootcrate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Lootcrate.BP_Lootcrate_C.BreakLootCrate");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Lootcrate.BP_Lootcrate_C.BreakLootcrate");
 
-	ABP_Lootcrate_C_BreakLootCrate_Params params;
+	ABP_Lootcrate_C_BreakLootcrate_Params params;
 
 	auto flags = fn->FunctionFlags;
 

@@ -100,14 +100,14 @@ void ABP_ArmorPlateSlot_C::ReceiveBeginPlay()
 }
 
 
-// Function BP_ArmorPlateSlot.BP_ArmorPlateSlot_C.Highlight
+// Function BP_ArmorPlateSlot.BP_ArmorPlateSlot_C.HighLight
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_ArmorPlateSlot_C::Highlight()
+void ABP_ArmorPlateSlot_C::HighLight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_ArmorPlateSlot.BP_ArmorPlateSlot_C.Highlight");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_ArmorPlateSlot.BP_ArmorPlateSlot_C.HighLight");
 
-	ABP_ArmorPlateSlot_C_Highlight_Params params;
+	ABP_ArmorPlateSlot_C_HighLight_Params params;
 
 	auto flags = fn->FunctionFlags;
 

@@ -324,14 +324,14 @@ void ABP_MastBase_C::S_RotateRightReleased()
 }
 
 
-// Function BP_MastBase.BP_MastBase_C.Highlight
+// Function BP_MastBase.BP_MastBase_C.HighLight
 // (BlueprintCallable, BlueprintEvent)
 
-void ABP_MastBase_C::Highlight()
+void ABP_MastBase_C::HighLight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_MastBase.BP_MastBase_C.Highlight");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_MastBase.BP_MastBase_C.HighLight");
 
-	ABP_MastBase_C_Highlight_Params params;
+	ABP_MastBase_C_HighLight_Params params;
 
 	auto flags = fn->FunctionFlags;
 

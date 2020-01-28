@@ -20,8 +20,8 @@ struct ABP_Lootcrate_C_SpawnItemWithRaycast_Params
 	struct FVector                                     Location;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function BP_Lootcrate.BP_Lootcrate_C.BreakLootCrate
-struct ABP_Lootcrate_C_BreakLootCrate_Params
+// Function BP_Lootcrate.BP_Lootcrate_C.BreakLootcrate
+struct ABP_Lootcrate_C_BreakLootcrate_Params
 {
 };
 

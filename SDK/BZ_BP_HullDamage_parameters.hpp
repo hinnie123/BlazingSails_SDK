@@ -60,8 +60,8 @@ struct ABP_HullDamage_C_ReceiveTick_Params
 	float*                                             DeltaSeconds;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function BP_HullDamage.BP_HullDamage_C.Highlight
-struct ABP_HullDamage_C_Highlight_Params
+// Function BP_HullDamage.BP_HullDamage_C.HighLight
+struct ABP_HullDamage_C_HighLight_Params
 {
 	bool                                               ENoughWood;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };

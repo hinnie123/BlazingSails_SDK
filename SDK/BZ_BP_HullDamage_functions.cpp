@@ -168,16 +168,16 @@ void ABP_HullDamage_C::ReceiveTick(float* DeltaSeconds)
 }
 
 
-// Function BP_HullDamage.BP_HullDamage_C.Highlight
+// Function BP_HullDamage.BP_HullDamage_C.HighLight
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
 // bool                           ENoughWood                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_HullDamage_C::Highlight(bool ENoughWood)
+void ABP_HullDamage_C::HighLight(bool ENoughWood)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_HullDamage.BP_HullDamage_C.Highlight");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_HullDamage.BP_HullDamage_C.HighLight");
 
-	ABP_HullDamage_C_Highlight_Params params;
+	ABP_HullDamage_C_HighLight_Params params;
 	params.ENoughWood = ENoughWood;
 
 	auto flags = fn->FunctionFlags;

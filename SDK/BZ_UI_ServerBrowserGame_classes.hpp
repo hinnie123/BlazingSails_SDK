@@ -33,7 +33,7 @@ public:
 	bool                                               PreGame;                                                  // 0x0319(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData00[0x6];                                       // 0x031A(0x0006) MISSED OFFSET
 	struct FText                                       Password;                                                 // 0x0320(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
-	struct FText                                       Mapname;                                                  // 0x0338(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
+	struct FText                                       MapName;                                                  // 0x0338(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	TEnumAsByte<E_TimesOfDay>                          TOD;                                                      // 0x0350(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData01[0x3];                                       // 0x0351(0x0003) MISSED OFFSET
 	int                                                PlayerAmount;                                             // 0x0354(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)

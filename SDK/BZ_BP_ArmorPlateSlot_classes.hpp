@@ -37,7 +37,7 @@ public:
 	void OnRep_Active();
 	void UserConstructionScript();
 	void ReceiveBeginPlay();
-	void Highlight();
+	void HighLight();
 	void NoHighlight();
 	void ExecuteUbergraph_BP_ArmorPlateSlot(int EntryPoint);
 };

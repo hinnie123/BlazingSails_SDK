@@ -113,7 +113,7 @@ public:
 	void S_RotateLeftReleased();
 	void S_RotateRightPressed();
 	void S_RotateRightReleased();
-	void Highlight();
+	void HighLight();
 	void NoHighlight();
 	void MC_SailRotation(int Rotation);
 	void LoadKeys();

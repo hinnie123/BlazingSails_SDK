@@ -106,8 +106,8 @@ struct ABP_MastBase_C_S_RotateRightReleased_Params
 {
 };
 
-// Function BP_MastBase.BP_MastBase_C.Highlight
-struct ABP_MastBase_C_Highlight_Params
+// Function BP_MastBase.BP_MastBase_C.HighLight
+struct ABP_MastBase_C_HighLight_Params
 {
 };
 

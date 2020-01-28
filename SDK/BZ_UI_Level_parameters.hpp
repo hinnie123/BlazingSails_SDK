@@ -29,8 +29,8 @@ struct UUI_Level_C_Unhighlight_Params
 {
 };
 
-// Function UI_Level.UI_Level_C.Highlight
-struct UUI_Level_C_Highlight_Params
+// Function UI_Level.UI_Level_C.HighLight
+struct UUI_Level_C_HighLight_Params
 {
 };
 

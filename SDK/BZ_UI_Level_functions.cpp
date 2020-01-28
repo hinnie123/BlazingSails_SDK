@@ -63,14 +63,14 @@ void UUI_Level_C::Unhighlight()
 }
 
 
-// Function UI_Level.UI_Level_C.Highlight
+// Function UI_Level.UI_Level_C.HighLight
 // (BlueprintCallable, BlueprintEvent)
 
-void UUI_Level_C::Highlight()
+void UUI_Level_C::HighLight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UI_Level.UI_Level_C.Highlight");
+	static auto fn = UObject::FindObject<UFunction>("Function UI_Level.UI_Level_C.HighLight");
 
-	UUI_Level_C_Highlight_Params params;
+	UUI_Level_C_HighLight_Params params;
 
 	auto flags = fn->FunctionFlags;
 

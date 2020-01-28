@@ -105,7 +105,7 @@ public:
 	struct FVector                                     NewGroundTraceLocation;                                   // 0x0988(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	struct FVector                                     SailRepairDetectLocation;                                 // 0x0994(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	struct FRotator                                    Direction;                                                // 0x09A0(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	struct FRotator                                    FPSRotationOffset;                                        // 0x09AC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	struct FRotator                                    FpsRotationOffset;                                        // 0x09AC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               PrimaryFireActivated;                                     // 0x09B8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               MainWeaponIsZoom;                                         // 0x09B9(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               SideArmIsZoom;                                            // 0x09BA(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
@@ -224,7 +224,7 @@ public:
 	float                                              MouseYValue;                                              // 0x0C68(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              StomachPitch;                                             // 0x0C6C(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              CurrentStomachPitch;                                      // 0x0C70(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	float                                              KnockbackAmount;                                          // 0x0C74(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	float                                              Knockbackamount;                                          // 0x0C74(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	struct FVector                                     DefaultFPSLocation;                                       // 0x0C78(0x000C) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               OwnCharacter;                                             // 0x0C84(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData11[0x3];                                       // 0x0C85(0x0003) MISSED OFFSET
@@ -374,7 +374,7 @@ public:
 	void OC_RemovePlayerEffect();
 	void OC_SetShipMode(bool OnShip);
 	void OC_UpgradeInventory();
-	void BreakLootCrate(class ABP_Lootcrate_C* lootcrate);
+	void BreakLootcrate(class ABP_Lootcrate_C* lootcrate);
 	void S_BreakLootCrate(class ABP_Lootcrate_C* lootcrate);
 	void MoveForwardBackward(float InputValue);
 	void MoveLeftRight(float InputValue);
@@ -469,7 +469,7 @@ public:
 	void S_StopRepair();
 	void S_StartRepair();
 	void OC_SecondaryFire();
-	void ApplyKnockback(float KnockbackAmount);
+	void ApplyKnockback(float Knockbackamount);
 	void PrimaryFire_Repeat();
 	void StopPrimaryFire();
 	void OC_RefreshAmmo();

@@ -600,8 +600,8 @@ struct ABP_Character_C_OC_UpgradeInventory_Params
 {
 };
 
-// Function BP_Character.BP_Character_C.BreakLootCrate
-struct ABP_Character_C_BreakLootCrate_Params
+// Function BP_Character.BP_Character_C.BreakLootcrate
+struct ABP_Character_C_BreakLootcrate_Params
 {
 	class ABP_Lootcrate_C*                             lootcrate;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
@@ -1154,7 +1154,7 @@ struct ABP_Character_C_OC_SecondaryFire_Params
 // Function BP_Character.BP_Character_C.ApplyKnockback
 struct ABP_Character_C_ApplyKnockback_Params
 {
-	float                                              KnockbackAmount;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	float                                              Knockbackamount;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BP_Character.BP_Character_C.PrimaryFire_Repeat

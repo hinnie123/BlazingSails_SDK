@@ -1988,16 +1988,16 @@ void ABP_Character_C::OC_UpgradeInventory()
 }
 
 
-// Function BP_Character.BP_Character_C.BreakLootCrate
+// Function BP_Character.BP_Character_C.BreakLootcrate
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
 // class ABP_Lootcrate_C*         lootcrate                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_Character_C::BreakLootCrate(class ABP_Lootcrate_C* lootcrate)
+void ABP_Character_C::BreakLootcrate(class ABP_Lootcrate_C* lootcrate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Character.BP_Character_C.BreakLootCrate");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Character.BP_Character_C.BreakLootcrate");
 
-	ABP_Character_C_BreakLootCrate_Params params;
+	ABP_Character_C_BreakLootcrate_Params params;
 	params.lootcrate = lootcrate;
 
 	auto flags = fn->FunctionFlags;
@@ -3806,14 +3806,14 @@ void ABP_Character_C::OC_SecondaryFire()
 // Function BP_Character.BP_Character_C.ApplyKnockback
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
-// float                          KnockbackAmount                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float                          Knockbackamount                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_Character_C::ApplyKnockback(float KnockbackAmount)
+void ABP_Character_C::ApplyKnockback(float Knockbackamount)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Character.BP_Character_C.ApplyKnockback");
 
 	ABP_Character_C_ApplyKnockback_Params params;
-	params.KnockbackAmount = KnockbackAmount;
+	params.Knockbackamount = Knockbackamount;
 
 	auto flags = fn->FunctionFlags;
 

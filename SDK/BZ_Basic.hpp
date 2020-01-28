@@ -6,11 +6,6 @@
 	#pragma pack(push, 0x8)
 #endif
 
-#include <unordered_set>
-#include <string>
-#include <Windows.h>
-#include <locale>
-
 namespace SDK
 {
 template<typename Fn>
@@ -61,11 +56,11 @@ public:
 	{
 		return *(int32_t*)((uintptr_t)GetModuleHandleA(0) + g_objects + 0x14);
 	}
-
+ 
 	inline UObject* GetByIndex(int32_t index) const
 	{
 		static auto objects = *(uintptr_t*)((uintptr_t)GetModuleHandleA(0) + g_objects);
-		return (UObject*)(*(uintptr_t*)(*(uintptr_t*)(objects + 8 * (id / 0x10000)) + 24 * (id % 0x10000)));
+		return (UObject*)(*(uintptr_t*)(*(uintptr_t*)(objects + 8i64 * (index / 0x10000)) + 24i64 * (index % 0x10000)));
 	}
 
 	inline FUObjectItem* GetItemByIndex(int32_t index) const
